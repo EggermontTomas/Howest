@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../Coding/2022-2023-CS-week01"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "2022-2023-CS-week01"
+  }
+}
