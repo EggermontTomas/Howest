@@ -1,117 +1,147 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Handleiding</title>
-  </head>
-  <body>
-    <h1>Web Skills: HTML basics</h1>
 
-    <h2>Wat is HTML?</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Handleiding</title>
+</head>
 
-    <p><strong>HTML</strong> is een afkorting voor <em>Hypertext Markup Language</em>.<br />Zoals de term al zegt is het een opmaak taal, het vertelt je browser door middel van html tags hoe de pagina moet worden weergegeven op het scherm.</p>
+<body>
+  <h1>Web Skills: HTML basics</h1>
 
-    <p>In de meeste eenvoudige vorm kan HTML gebruikt worden om tekst in paragrafen onder te verdelen met koppen en stukken tekst die nadruk moeten krijgen. Essentieel is dat HTML hypertekst mogelijk maakt, waardoor in een document verwijzingen kunnen worden ingebouwd naar andere documenten, dit zijn hyperlinks.</p>
+  <h2>Wat is HTML?</h2>
 
-    <h2>Lijsten</h2>
+  <p> <strong>HTML</strong> is een afkorting voor <em>Hypertext Markup Language</em>.<br>Zoals de term al zegt is het
+    een opmaak taal, het vertelt je browser door middel van html tags hoe de pagina moet worden weergegeven op het
+    scherm.</p>
 
-    <p>Lijsten worden onder andere gebruikt voor opsommingen, maar navigatie-elementen zullen we ook meestal in een lijst plaatsen (SEO). Elke lijst wordt opgebouwd uit verschillende listitems (&lt;li&gt;).</p>
+  <p>In de meeste eenvoudige vorm kan HTML gebruikt worden om tekst in paragrafen onder te verdelen met koppen en
+    stukken tekst die nadruk moeten krijgen. Essentieel is dat HTML hypertekst mogelijk maakt, waardoor in een document
+    verwijzingen kunnen worden ingebouwd naar andere documenten, dit zijn hyperlinks.</p>
 
-    <p>Er bestaan 3 soorten lijsten:</p>
+  <h2>Lijsten</h2>
 
-    <ul>
-      <li><a href="lijsten/unorderedlist.html" target="_blank">Unordered list</a></li>
-      <li><a href="lijsten/orderedlist.html" target="_blank">Ordered list</a></li>
-      <li><a href="lijsten/definitionlist.html" target="_blank">definition list</a></li>
-    </ul>
+  <p>Lijsten worden onder andere gebruikt voor opsommingen, maar navigatie-elementen zullen we ook meestal in een lijst
+    plaatsen (SEO). Elke lijst wordt opgebouwd uit verschillende listitems (&lt;li&gt;).</p>
 
-    <p>We kunnen de verschillende lijsten ook combineren en zo <a href="genestelijsten.html" target="_blank">Geneste lijsten</a> maken.</p>
+  <p>Er bestaan 3 soorten lijsten:</p>
 
-    <h2>Tabellen</h2>
+  <ul>
+    <li><a href="lijsten/unorderedlist.html" target="_blank">Unordered list</a></li>
+    <li><a href="lijsten/orderedlist.html" target="_blank">Ordered list</a></li>
+    <li><a href="lijsten/definitionlist.html" target="_blank">definition list</a></li>
+  </ul>
 
-    <p>Tabellen worden gebruikt om data te structureren (en dus niet voor de layout!).</p>
+  <p>We kunnen de verschillende lijsten ook combineren en zo <a href="genestelijsten.html" target="_blank">Geneste
+      lijsten</a> maken.</p>
 
-    <p>Een tabel bestaat uit verschillende rijen of table rows (&lt;tr&gt;) en elke rij is opgebouwd uit verschillende cellen of table data (&lt;td&gt;).</p>
+  <h2>Tabellen</h2>
 
-    <table>
-      <tr>
-        <td>eenvoudige tabel</td>
-        <td>samenvoegen van cellen</td>
-      </tr>
-      <tr>
-        <td>opdeling van een tabel</td>
-        <td>uitgebreide tabel</td>
-      </tr>
-    </table>
+  <p>Tabellen worden gebruikt om data te structureren (en dus niet voor de layout!).</p>
 
-    <h2>Commentaar toevoegen</h2>
+  <p>Een tabel bestaat uit verschillende rijen of table rows (&lt;tr&gt;) en elke rij is opgebouwd uit verschillende
+    cellen of table data (&lt;td&gt;).</p>
 
-    <p>We hebben ook de mogelijkheid om commentaar toe te voegen. Deze commentaarregels zullen in de browser niet getoond worden. Commentaarregels kunnen helpen om de code te verduidelijken.</p>
+  <table>
+    <tr>
+      <td>eenvoudige tabel</td>
+      <td>samenvoegen van cellen</td>
+    </tr>
+    <tr>
+      <td>opdeling van een tabel</td>
+      <td>uitgebreide tabel</td>
+    </tr>
+  </table>
 
-    <p>
-      Commentaar toevoegen doe je met volgende code: &lt;-- dit is commentaar --&gt;
-      <!-- dit is commentaar -->
-    </p>
+  <h2>Commentaar toevoegen</h2>
 
-    <h2 id="titelHyperlinks">Hyperlinks</h2>
+  <p>We hebben ook de mogelijkheid om commentaar toe te voegen. Deze commentaarregels zullen in de browser niet getoond
+    worden. Commentaarregels kunnen helpen om de code te verduidelijken.</p>
 
-    <p>Via attributen kunnen we extra informatie aan tags meegeven. Attributen krijgen een waarde mee die tussen dubbele quotes geschreven worden.</p>
+  <p>
+    Commentaar toevoegen doe je met volgende code: &lt;-- dit is commentaar --&gt;
+    <!-- dit is commentaar -->
+  </p>
 
-    <p>Via het attribuut href kunnen we bijvoorbeeld de bestemming van hyperlinks bepalen.</p>
+  <h2 id="titelHyperlinks">Hyperlinks</h2>
 
-    <h3>Linken naar een andere webpagina</h3>
+  <p>Via attributen kunnen we extra informatie aan tags meegeven. Attributen krijgen een waarde mee die tussen dubbele
+    quotes geschreven worden.</p>
 
-    <p>Via de tag a en basisattribuut href kunnen we een hyperlink leggen naar een andere webpagina. Gebruik hiervoor volgende code.</p>
+  <p>Via het attribuut href kunnen we bijvoorbeeld de bestemming van hyperlinks bepalen.</p>
 
-    <p>&lt;a href=&quot;http://www.howest.be&quot;&gt;Howest website&lt;/a&gt;</p>
-    <p>Voorbeeld: <a href="http://howest.be" target="_blank">Howest website</a></p>
+  <h3>Linken naar een andere webpagina</h3>
 
-    <p>&lt;a href=&quot;ftp://www.howest.be&quot;&gt;FTP-Howest&lt;/a&gt;:</p>
-    <p>Voorbeeld: <a href="ftp://www.howest.be" target="_blank">Howest FTP site</a></p>
+  <p>Via de tag a en basisattribuut href kunnen we een hyperlink leggen naar een andere webpagina. Gebruik hiervoor
+    volgende code.</p>
 
-    <h3>Linken naar een interne webpagina</h3>
+  <p>&lt;a href=&quot;http://www.howest.be&quot;&gt;Howest website&lt;/a&gt;</p>
+  <p>Voorbeeld: <a href="http://howest.be" target="_blank">Howest website</a></p>
 
-    <p>Staat het bestand in dezelfde directory als het huidige document, dan hoef je slechts de naam van het bestand op te nemen.</p>
+  <p>&lt;a href=&quot;ftp://www.howest.be&quot;&gt;FTP-Howest&lt;/a&gt;:</p>
+  <p>Voorbeeld: <a href="ftp://www.howest.be" target="_blank">Howest FTP site</a></p>
 
-    <p>Staat het bestand in een subdirectory van de huidige directory, dan geef je eerst de namen van de achtereenvolgende subdirectories met achter elke naam een slash en daarna de naam van het bestand:</p>
+  <h3>Linken naar een interne webpagina</h3>
 
-    <p>&lt;a href=&quot;lijsten/orderedList.htm&quot;&gt;geordende lijst&lt;/a&gt;: Link naar geordende lijst</p>
-    <a href="lijsten/orderedList.html">geordende lijst</a>
+  <p>Staat het bestand in dezelfde directory als het huidige document, dan hoef je slechts de naam van het bestand op te
+    nemen.</p>
 
-    <p>Bevindt het bestand zich in een hogere directory dan de huidige, dan neem je voor elke stap omhoog een slash voorafgegaan door twee puntjes op: &lt;a href=&quot;../index.htm&quot;&gt;test&lt;/a&gt;</p>
+  <p>Staat het bestand in een subdirectory van de huidige directory, dan geef je eerst de namen van de achtereenvolgende
+    subdirectories met achter elke naam een slash en daarna de naam van het bestand:</p>
 
-    <h3>Linken naar interne bookmarks</h3>
+  <p>&lt;a href=&quot;lijsten/orderedList.htm&quot;&gt;geordende lijst&lt;/a&gt;: Link naar geordende lijst</p>
+  <a href="lijsten/orderedList.html">geordende lijst</a>
 
-    <p>We kunnen ook een link leggen in onze pagina zelf, dit zijn bookmarks. Hiervoor moeten we een id of een identiteit meegeven aan de verschillende onderdelen. Op die manier kunnen we via een bookmark linken naar die bepaalde onderdelen.</p>
+  <p>Bevindt het bestand zich in een hogere directory dan de huidige, dan neem je voor elke stap omhoog een slash
+    voorafgegaan door twee puntjes op: &lt;a href=&quot;../index.htm&quot;&gt;test&lt;/a&gt;</p>
 
-    <p>Om bijvoorbeeld een header een id mee te geven gebruiken we volgende code: &lt;h2 id=&quot;titelHyperlinks&quot;&gt;Hyperlinks&lt;/h2&gt;</p>
-    <a href="#titelHyperlinks">Spring</a> naar de titel Hyperlinks
+  <h3>Linken naar interne bookmarks</h3>
 
-    <p>Via een bookmark kunnen we naar dit onderdeel springen: &lt;a href=&quot;#titelHyperlinks&quot;&gt;Spring&lt;/a&gt; naar de titel Hyperlinks. Spring naar de titel Hyperlinks</p>
-    <a href="tabellen/eenvoudigeTabel.html#rijtitels">Spring naar de rijtitels van de eenvoudige tabel</a>
+  <p>We kunnen ook een link leggen in onze pagina zelf, dit zijn bookmarks. Hiervoor moeten we een id of een identiteit
+    meegeven aan de verschillende onderdelen. Op die manier kunnen we via een bookmark linken naar die bepaalde
+    onderdelen.</p>
 
-    <p>We kunnen ook verwijzen naar bookmarks op andere webpagina's: &lt;a href=&quot;tabellen/eenvoudigeTabel.htm#rijtitels&quot;&gt;Spring naar rijtitels van de pagina eenvoudige tabel&lt;/a&gt;</p>
+  <p>Om bijvoorbeeld een header een id mee te geven gebruiken we volgende code: &lt;h2
+    id=&quot;titelHyperlinks&quot;&gt;Hyperlinks&lt;/h2&gt;</p>
+  <a href="#titelHyperlinks">Spring</a> naar de titel Hyperlinks
 
-    <h3>Mailen naar een emailadres</h3>
+  <p>Via een bookmark kunnen we naar dit onderdeel springen: &lt;a href=&quot;#titelHyperlinks&quot;&gt;Spring&lt;/a&gt;
+    naar de titel Hyperlinks. Spring naar de titel Hyperlinks</p>
+  <a href="tabellen/eenvoudigeTabel.html#rijtitels">Spring naar de rijtitels van de eenvoudige tabel</a>
 
-    <p>We kunnen ook een mail versturen. Gebruik hiervoor volgende code. &lt;a href=&quot;mailto:voornaam.naam@howest.be&quot;&gt;Mail naar Voornaam Naam&lt;/a&gt;</p>
+  <p>We kunnen ook verwijzen naar bookmarks op andere webpagina's: &lt;a
+    href=&quot;tabellen/eenvoudigeTabel.htm#rijtitels&quot;&gt;Spring naar rijtitels van de pagina eenvoudige
+    tabel&lt;/a&gt;</p>
 
-    <a href="mailto:tomas.eggermont@howest.be">Mail naar Tomas Eggermont</a>
+  <h3>Mailen naar een emailadres</h3>
 
-    <h2>Tooltip</h2>
+  <p>We kunnen ook een mail versturen. Gebruik hiervoor volgende code. &lt;a
+    href=&quot;mailto:voornaam.naam@howest.be&quot;&gt;Mail naar Voornaam Naam&lt;/a&gt;</p>
 
-    <p>We kunnen ook een tooltip toevoegen. Wanneer je met de cursor over het woord of de woorden gaat zal de tooltip tevoorschijn komen. We gebruiken hiervoor terug een attribuut van de tag a, namelijk 'title'. &lt;a title=&quot;dit is een tooltip&quot;&gt;tooltip&lt;/a&gt;</p>
+  <a href="mailto:tomas.eggermont@howest.be">Mail naar Tomas Eggermont</a>
 
-    <h2>Afbeeldingen</h2>
+  <h2>Tooltip</h2>
 
-    <p>Images worden ingevoegd met de unaire &lt;img/&gt;-tag. Deze tag heeft minimaal het attribuut src (source) nodig. Je gebruikt relatieve adressering naar een afbeelding.</p>
+  <p>We kunnen ook een tooltip toevoegen. Wanneer je met de cursor over het woord of de woorden gaat zal de tooltip
+    tevoorschijn komen. We gebruiken hiervoor terug een attribuut van de tag a, namelijk 'title'. &lt;a title=&quot;dit
+    is een tooltip&quot;&gt;tooltip&lt;/a&gt;</p>
 
-    <p>Voorbeeld: &lt;img src=&quot;images/crash_test_dummy.jpg&quot;/&gt;</p>
+  <h2>Afbeeldingen</h2>
+  <img src="image/fotoapps.jpg" alt="foto" width="480" height="545">; <p>Images worden ingevoegd met de unaire
+    &lt;img/&gt;-tag. Deze tag heeft minimaal het attribuut src (source) nodig. Je gebruikt relatieve adressering naar
+    een
+    afbeelding.
+  <p>
 
-    <p>HTML verwacht een label voor de image via het alt-attribuut. Dit attribuut blijft zichtbaar wanneer de image niet kan worden weergegeven. Je geeft ook best altijd een breedte en hoogte mee.</p>
+  <p>Voorbeeld: &lt;img src=&quot;images/crash_test_dummy.jpg&quot;/&gt;</p>
 
-    <p>Voorbeeld: &lt;img src=&quot;images/crash_test_dummy.jpg&quot; alt=&quot;Crash test dummy&quot; width=&quot;630&quot; height=&quot;400&quot;/&gt;</p>
-  </body>
+  <p>HTML verwacht een label voor de image via het alt-attribuut. Dit attribuut blijft zichtbaar wanneer de image niet
+    kan worden weergegeven. Je geeft ook best altijd een breedte en hoogte mee.</p>
+
+  <p>Voorbeeld: &lt;img src=&quot;images/crash_test_dummy.jpg&quot; alt=&quot;Crash test dummy&quot;
+    width=&quot;630&quot; height=&quot;400&quot;/&gt;</p>
+</body>
+
 </html>
